@@ -29,7 +29,7 @@ def main():
 
     tabs = st.sidebar.selectbox(
         'Choose one of the following',
-        ('About Me','Annotate Image','Resize Image'),
+        ('Annotate Image','Resize Image'),
         key="main_menu"
     )
 
